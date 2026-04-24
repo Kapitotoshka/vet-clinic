@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ветеринарная клиника «Доктор Хвост»</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ========== ШАПКА САЙТА ========== -->
+<header>
+    <div class="container header-container">
+        <a href="index.html" class="logo">🐾 Доктор Хвост</a>
+        
+        <!-- Кнопка для мобильного меню -->
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        
+        <!-- Навигация (единое меню для всех страниц) -->
+        <nav>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="appointment.html">Запись</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- ========== ОСНОВНОЙ КОНТЕНТ ========== -->
+<main>
+
+    <!-- Баннер / Герой-секция -->
+    <section class="hero">
+        <div class="container">
+            <h1>Забота о здоровье ваших питомцев</h1>
+            <p>Ветеринарная клиника с современным оборудованием и опытными врачами</p>
+            <a href="appointment.html" class="btn btn-primary">Записаться на приём</a>
+        </div>
+    </section>
+
+   
+
+
+    <!-- Преимущества (Flexbox) -->
+    <section class="section">
+        <div class="container">
+            <h2>Почему выбирают нас</h2>
+            <div class="flex-4">
+                <div class="advantage">
+                    <div class="advantage-icon">🏆</div>
+                    <h3>10+ лет опыта</h3>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-icon">👩‍⚕️</div>
+                    <h3>Опытные врачи</h3>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-icon">🚑</div>
+                    <h3>Выезд на дом</h3>
+                </div>
+                <div class="advantage">
+                    <div class="advantage-icon">💊</div>
+                    <h3>Своя аптека</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Форма обратной связи (быстрая запись) -->
+    
+
+</main>
+
+<!-- ========== ПОДВАЛ ========== -->
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h4>🐾 Доктор Хвост</h4>
+                <p>Ветеринарная клиника<br>Забота о ваших питомцах</p>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <p>📞 +7 (999) 123-45-67<br>✉️ info@doctorhvost.ru</p>
+            </div>
+            <div>
+                <h4>Информация</h4>
+                <p><a href="privacy.html">Политика конфиденциальности</a><br><a href="thankyou.html">Спасибо за обращение</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Ветеринарная клиника «Доктор Хвост». Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Модальное окно -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h3>✅ Заявка отправлена!</h3>
+        <p>Мы свяжемся с вами в ближайшее время.</p>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

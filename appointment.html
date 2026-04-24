@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="css/style.css">
+<header>
+    <div class="container header-container">
+        <a href="index.html" class="logo">🐾 Доктор Хвост</a>
+        
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+    
+        <nav>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="services.html">Услуги</a></li>
+                <li><a href="blog.html">Блог</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="appointment.html">Запись</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="section">
+    <div class="container">
+        <div class="form-wrapper">
+            <div class="form-text">
+                <h2>Запишитесь на приём</h2>
+                <p>Оставьте заявку, и мы перезвоним вам в течение 15 минут</p>
+            </div>
+            <div class="form-area">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Ваше имя" required>
+                        <div class="error-message" id="error-name"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Ваш телефон" required>
+                        <div class="error-message" id="error-phone"></div>
+                    </div>
+                    <div class="form-group">
+                        <select id="service">
+                            <option value="consultation">Консультация</option>
+                            <option value="vaccination">Вакцинация</option>
+                            <option value="surgery">Хирургия</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h4>🐾 Доктор Хвост</h4>
+                <p>Ветеринарная клиника<br>Забота о ваших питомцах</p>
+            </div>
+            <div>
+                <h4>Контакты</h4>
+                <p>📞 +7 (999) 123-45-67<br>✉️ info@doctorhvost.ru</p>
+            </div>
+            <div>
+                <h4>Информация</h4>
+                <p><a href="privacy.html">Политика конфиденциальности</a><br><a href="thankyou.html">Спасибо за обращение</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Ветеринарная клиника «Доктор Хвост». Все права защищены.</p>
+        </div>
+    </div>
+</footer>
